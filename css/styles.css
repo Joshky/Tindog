@@ -1,0 +1,198 @@
+body { font-family: "Montserrat";}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+/* HEADINGS */ 
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2.8rem;
+}
+
+/* Navigation Bar */
+
+.navbar { padding-bottom: 4.5rem;}
+
+.navbar-brand { 
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.nav-item { padding: 0 1.2rem;}
+
+.nav-link { 
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 1.2rem;  
+}
+
+/* Download Buttons */
+
+.download-button { 
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image  */
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* HERO */
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+nav .container-fluid { padding: 0 0 2%;}
+
+.fa-apple { margin-right: 7px; }
+
+/* Features */
+
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+}
+
+#features i {
+    margin: 3% 0;
+    color: #ef8172;
+    transition: color .2s;
+}
+
+#features i:hover { color: #ff4c68}
+
+#features p {
+    line-height: 1.5;
+    color: #8f8f8f;
+    padding: 0 5%;
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+
+.enzo { 
+    width: 9.8%;
+    border-radius: 100%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-top: 3.1%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 30px 50px;
+    padding-bottom: 1rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* PRICING SECTION */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col { padding: 3% 2%;}
+
+/* CALL TO ACTION */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 6% 14%;
+}
+
+.cta-heading {
+    color: white;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* FOOTER */
+
+#footer { 
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icons { 
+    list-style: none;
+}
+
+.footer-icons li { 
+    display: inline-block; 
+    margin-right: 30px;
+}
+
+#footer p { color: #8f8f8f; }
+
+@media (max-width: 990px) {
+    .title-text { text-align: center;}
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (max-width: 620px) {
+    h1 { 
+        font-size: 3rem;
+    }
+
+    .carousel-item h2 {
+        font-size: 1.5rem;
+    }
+
+    .press-image {
+        width: 20%;
+        margin: 10px;
+        padding-bottom: 1rem;
+    }
+
+    #pricing { padding: 60px; }
+}
